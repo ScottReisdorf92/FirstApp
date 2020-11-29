@@ -1,0 +1,16 @@
+-need to setup a database to hold posts and comments
+-every post can have a post ID that ties the comments to a specific post
+-also need to possibly think about a table to hold users and passwords and an
+ admin role.
+Post button -
+  Opens a form for entry of a title of post and a second entry for the body
+    -will have a submit and cancel button
+Submit button -
+  adds the post to the database and it will be displayed on main page
+cancel button -
+  clears the forms and returns user to main page
+Comment button -
+  opens text area to submit comment on a Post
+  can either be a parent comment(Comment to post) or subcomment(comment to comment)
+search bar -
+  search for specific posts
